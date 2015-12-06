@@ -34,8 +34,8 @@ class TypographSelectionCommand(sublime_plugin.TextCommand):
         typograf.nobr(settings['max_no_break'])
 
         for region in self.view.sel():
-            processed = typograf.processText(self.view.substr(region))            
-            self.view.replace(edit, region, processed)
+            processed = typograf.processText(self.view.substr(region))
+            self.view.replace(edit, region, processed.strip())
 
 
     def get_settings(self):
