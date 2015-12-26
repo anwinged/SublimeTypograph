@@ -11,7 +11,7 @@ __email__ = 'anwinged@ya.ru'
 PLUGIN_NAME = 'Typograph'
 
 DEFAULT_SETTINGS = {
-    'rules' = {}
+    'rules': {}
 }
 
 
