@@ -24,7 +24,7 @@ Typograph: typo selection
 {
     "rules": {
         "Text.paragraphs": "off",
-        "Text.breakline': "off",
+        "Text.breakline": "off",
     }
 }
 ```
