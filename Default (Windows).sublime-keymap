@@ -1,6 +1,2 @@
 [
-	{
-		"keys": ["ctrl+shift+t"], 
-		"command": "typograph_selection"
-	}
 ]
