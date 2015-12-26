@@ -18,3 +18,13 @@ Typograph: typo selection
 
 Я не нашел сопоставления правил и параметров типографа, поэтому список крутилок можно просто посмотреть
 в исходниках оригинального типографа Муравьёва: https://github.com/emuravjev/mdash/blob/master/src-php/EMT.php
+
+Правила указываются в секции @rules@ настроек плагина, например:
+```json
+{
+    "rules": {
+        "Text.paragraphs": "off",
+        "Text.breakline': "off",
+    }
+}
+```
