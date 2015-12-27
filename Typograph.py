@@ -62,4 +62,5 @@ class TypographSelectionCommand(sublime_plugin.TextCommand):
             if key in DEFAULT_SETTINGS:
                 local_settings[key] = project_settings[key]
             else:
-                print('{}: invalid key "{}" in project settings'.format(PLUGIN_NAME, key))
+                msg = '{}: invalid key "{}" in project settings'
+                print(msg.format(PLUGIN_NAME, key))

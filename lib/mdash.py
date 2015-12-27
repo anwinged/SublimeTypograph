@@ -15,7 +15,7 @@ class TypographError(RuntimeError):
 
 class Typograph(object):
 
-    def __init__(self, rules = None):
+    def __init__(self, rules=None):
         self.rules = self.__prepare_rules(rules)
 
     def process(self, text):
